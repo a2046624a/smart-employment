@@ -13,6 +13,13 @@
     </div>
 </template>
 
+<script>
+export default {
+
+}
+</script>
+
+
 <style scoped>
 #header {
     height: 40px;

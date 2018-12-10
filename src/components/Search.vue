@@ -12,10 +12,12 @@
 </template>
 
 <style scoped>
+
 #search {
     margin-top: 40px;
     height: 50px;
     background: #ffffff;
+    text-align: center;
 }
 
 #search .locale {
