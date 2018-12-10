@@ -68,7 +68,6 @@
     left: 5px;
     color: #f14f44;
     font-size: 13px;
-
 }
 
 .tag {

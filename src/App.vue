@@ -37,7 +37,8 @@
   </div> 
 -->
 
-  <div id="app">
+<!-- 
+    <div id="app">
     <NavBottom/>
     <Header/>
     <Search/>
@@ -48,9 +49,16 @@
     <HotJobs/>
     <HotJobs/>
     <Expand/>
-    <!-- <PerInfo/> -->
+    <PerInfo/>
     <CheckInfo/>
+  </div> 
+  -->
+
+  <div id="">
+    <Header/>
+    <DetailsJob/>
   </div>
+
 </template>
 
 <script>
@@ -67,6 +75,7 @@ import Recommend from './components/Recommend.vue'
 import Expand from './components/Expand.vue'
 import PerInfo from './components/PerInfo.vue'
 import CheckInfo from './components/CheckInfo.vue'
+import DetailsJob from './components/DetailsJob.vue'
 
 
 
@@ -86,7 +95,8 @@ export default {
     Recommend,
     Expand,
     PerInfo,
-    CheckInfo
+    CheckInfo,
+    DetailsJob
   }
 }
 </script>
@@ -99,6 +109,11 @@ export default {
   color: #2c3e50;
   background: #f7f7f7;
   padding-bottom: 65px;
+}
+
+#container {
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 * {
