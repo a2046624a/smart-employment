@@ -74,7 +74,7 @@
   </div> 
 -->
   <div id="app">
-    
+    <TpiN/>
   </div>
 
 </template>
@@ -84,18 +84,7 @@ import NavBottom from './components/NavBottom.vue'
 import Header from './components/Header.vue'
 import Search from './components/Search.vue'
 import Banner from './components/Banner.vue'
-import Jobs from './components/Jobs.vue'
-import HotMore from './components/HotMore.vue'
-import HotJobs from './components/HotJobs.vue'
-import HotIndustry from './components/HotIndustry.vue'
-import JobFilter from './components/JobFilter.vue'
-import Recommend from './components/Recommend.vue'
-import Expand from './components/Expand.vue'
-import PerInfo from './components/PerInfo.vue'
-import CheckInfo from './components/CheckInfo.vue'
-import DetailsJob from './components/DetailsJob.vue'
-import ShareJob from './components/ShareJob.vue'
-import DetailsTrain from './components/DetailsTrain.vue'
+import TpiN from './components/TpiN.vue'
 
 
 
@@ -107,18 +96,7 @@ export default {
     Header,
     Search,
     Banner,
-    Jobs,
-    HotMore,
-    HotJobs,
-    HotIndustry,
-    JobFilter,
-    Recommend,
-    Expand,
-    PerInfo,
-    CheckInfo,
-    DetailsJob,
-    ShareJob,
-    DetailsTrain
+    TpiN
   }
 }
 </script>
@@ -128,7 +106,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* padding-bottom: 65px; */
 }
 
 
