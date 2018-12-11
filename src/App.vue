@@ -37,7 +37,7 @@
   </div> 
 -->
 
-<!-- 
+<!-- PerInfo
     <div id="app">
     <NavBottom/>
     <Header/>
@@ -52,11 +52,29 @@
     <PerInfo/>
     <CheckInfo/>
   </div> 
-  -->
+-->
 
+<!-- DetailsJob
   <div id="">
     <Header/>
     <DetailsJob/>
+  </div> 
+-->
+
+<!-- ShareJob
+  <div id="app">
+    <ShareJob/>
+  </div> 
+-->
+
+<!-- DetailsTrain
+    <div id="app">
+    <Header/>
+    <DetailsTrain/>
+  </div> 
+-->
+  <div id="app">
+    
   </div>
 
 </template>
@@ -76,6 +94,8 @@ import Expand from './components/Expand.vue'
 import PerInfo from './components/PerInfo.vue'
 import CheckInfo from './components/CheckInfo.vue'
 import DetailsJob from './components/DetailsJob.vue'
+import ShareJob from './components/ShareJob.vue'
+import DetailsTrain from './components/DetailsTrain.vue'
 
 
 
@@ -96,7 +116,9 @@ export default {
     Expand,
     PerInfo,
     CheckInfo,
-    DetailsJob
+    DetailsJob,
+    ShareJob,
+    DetailsTrain
   }
 }
 </script>
@@ -106,20 +128,13 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  background: #f7f7f7;
-  padding-bottom: 65px;
+  /* padding-bottom: 65px; */
 }
 
-#container {
-  margin-top: 40px;
-  margin-bottom: 60px;
-}
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: #030303;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 </style>

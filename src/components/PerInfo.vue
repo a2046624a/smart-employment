@@ -68,6 +68,15 @@
     
 }
 
+.close {
+    display: inline-block;
+    background: url(../assets/close.png) no-repeat center;
+    padding: 20px 20px;
+    position: absolute;
+    top: 13px;
+    right: 12px;  
+}
+
 .contan {
     margin: 0 24px;
     height: 45px;
