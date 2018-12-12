@@ -1,80 +1,6 @@
 <template>
-<!-- Home
   <div id="app">
-    <Header/>
-    <Search/>
-    <Banner/>
-    <Jobs/>
-    <NavBottom/>
-  </div>
--->
-
-<!-- HotJobs
-  <div id="app">
-    <Header></Header>
-    <HotMore/>
-    <HotJobs/>
-    <HotJobs/>
-    <HotJobs/>
-    <HotJobs/>
-    <HotJobs/>
-    <HotJobs/>
-  </div> 
--->
-  
-<!-- HotIndustry
-  <div id="app">
-    <Header></Header>
-    <HotMore/>
-    <HotIndustry/>
-    <HotIndustry/>
-    <HotIndustry/>
-    <HotIndustry/>
-    <HotIndustry/>
-    <HotIndustry/>
-    <HotIndustry/>
-    <HotIndustry/>
-  </div> 
--->
-
-<!-- PerInfo
-    <div id="app">
-    <NavBottom/>
-    <Header/>
-    <Search/>
-    <Banner/>
-    <JobFilter/>
-    <Recommend/>
-    <HotJobs/>
-    <HotJobs/>
-    <HotJobs/>
-    <Expand/>
-    <PerInfo/>
-    <CheckInfo/>
-  </div> 
--->
-
-<!-- DetailsJob
-  <div id="">
-    <Header/>
-    <DetailsJob/>
-  </div> 
--->
-
-<!-- ShareJob
-  <div id="app">
-    <ShareJob/>
-  </div> 
--->
-
-<!-- DetailsTrain
-    <div id="app">
-    <Header/>
-    <DetailsTrain/>
-  </div> 
--->
-  <div id="app">
-    <TpiN/>
+  <Mwallet/>
   </div>
 
 </template>
@@ -84,8 +10,7 @@ import NavBottom from './components/NavBottom.vue'
 import Header from './components/Header.vue'
 import Search from './components/Search.vue'
 import Banner from './components/Banner.vue'
-import TpiN from './components/TpiN.vue'
-
+import Mwallet from './components/Mwallet.vue'
 
 
 
@@ -96,7 +21,7 @@ export default {
     Header,
     Search,
     Banner,
-    TpiN
+    Mwallet
   }
 }
 </script>
@@ -108,6 +33,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#container {
+  background-color: #f7f7f7;
+}
 
 * {
   margin: 0;
