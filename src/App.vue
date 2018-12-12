@@ -13,7 +13,6 @@ import Banner from './components/Banner.vue'
 import Mwallet from './components/Mwallet.vue'
 
 
-
 export default {
   name: 'app',
   components: {
