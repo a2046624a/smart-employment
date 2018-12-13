@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "vant": "^1.4.8",
     "vue": "^2.5.17"
   },
   "devDependencies": {
@@ -42,5 +43,17 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cbsydhs/smart-employment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cbsydhs/smart-employment/issues"
+  },
+  "homepage": "https://github.com/Cbsydhs/smart-employment#readme"
 }

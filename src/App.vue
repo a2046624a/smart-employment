@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  <Mwallet/>
+  <Mjob/>
   </div>
 
 </template>
@@ -10,7 +10,7 @@ import NavBottom from './components/NavBottom.vue'
 import Header from './components/Header.vue'
 import Search from './components/Search.vue'
 import Banner from './components/Banner.vue'
-import Mwallet from './components/Mwallet.vue'
+import Mjob from './components/Mjob.vue'
 
 
 export default {
@@ -20,7 +20,7 @@ export default {
     Header,
     Search,
     Banner,
-    Mwallet
+    Mjob
   }
 }
 </script>
@@ -32,8 +32,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#container {
+.container {
   background-color: #f7f7f7;
+  margin-top: 40px;
 }
 
 * {
