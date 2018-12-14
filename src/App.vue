@@ -1,26 +1,17 @@
 <template>
   <div id="app">
-  <Mjob/>
+  <Mshare/>
   </div>
-
 </template>
 
 <script>
-import NavBottom from './components/NavBottom.vue'
-import Header from './components/Header.vue'
-import Search from './components/Search.vue'
-import Banner from './components/Banner.vue'
-import Mjob from './components/Mjob.vue'
+import Mshare from './components/Mshare.vue'
 
 
 export default {
   name: 'app',
   components: {
-    NavBottom,
-    Header,
-    Search,
-    Banner,
-    Mjob
+    Mshare
   }
 }
 </script>
@@ -35,6 +26,15 @@ export default {
 .container {
   background-color: #f7f7f7;
   margin-top: 40px;
+}
+
+.container>div {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  background: #fff;
+  position: relative;
+  padding: 12px;
 }
 
 * {

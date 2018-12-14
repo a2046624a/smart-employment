@@ -1,21 +1,16 @@
 <template>
     <div class="container">
         <div class="t">
-            <span class="t1">职位</span>
+            <span class="t1">课程</span>
             <span class="t2">申请时间</span>
             <span class="t3">进度</span>
         </div>
         <div class="m">
-            <div>
-                <div>
-                    <span class="name">普工</span>
-                    <span class="salary">3500-4500元/月</span>
-                </div>
-                <span class="time">2018-05-25</span>
-                <span class="note">面试通知</span>
-            </div>
+            <span class="t1">电工培训</span>
+            <span class="t2">2018-05-25</span>
+            <span class="t3">已申请</span>
             <div class="b">
-                <span class="b1">富士康（贵阳）</span>
+                <span class="b1">直通教育</span>
                 <span class="b2">南明区 机场路</span>
             </div>
         </div>
@@ -33,6 +28,7 @@
     position: absolute;
     left: 12px;
 }
+
 .t3 {
     position: absolute;
     right: 12px;
@@ -47,31 +43,9 @@
     position: relative;
     text-align: center;
 }
-.name {
-    font-size: 14px;
-    position: absolute;
-    left: 12px;
-}
 
-.salary {
-    font-size: 13px;
-    position: absolute;
-    left: 12px;
-    top: 30px;
-}
-
-.time {
-    display: inline-block;
-    font-size: 13px;
-    padding: 10px 0 18px 0;
-}
-
-.note {
-    font-size: 13px;
+.m>.t3 {
     color: #007aff;
-    position: absolute;
-    right: 12px;
-    top: 20px;
 }
 
 .b {
@@ -79,6 +53,7 @@
     font-size: 12px;
     color: #666666;
     position: relative;
+    margin-top: 10px;
 }
 
 .b1 ,.b2 {
