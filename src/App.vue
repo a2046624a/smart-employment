@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-  <Mshare/>
+  <Msetting/>
   </div>
 </template>
 
 <script>
-import Mshare from './components/Mshare.vue'
+import Msetting from './components/Msetting.vue'
 
 
 export default {
   name: 'app',
   components: {
-    Mshare
+    Msetting
   }
 }
 </script>
@@ -22,9 +22,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  background-color: #f7f7f7;
+}
 
 .container {
-  background-color: #f7f7f7;
   margin-top: 40px;
 }
 

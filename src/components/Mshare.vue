@@ -22,12 +22,16 @@
                     <p>点击分享</p>
                     <p>招聘信息</p>
                 </div>
-                <div></div>
+                <div class="ar1">
+                    <p>>></p>
+                </div>
                 <div class="m">
                     <p>好友打开链接</p>
                     <p>点击报名</p>
                 </div>
-                <div></div>
+                <div class="ar2">
+                    <p>>></p>
+                </div>
                 <div class="r">
                     <p>好友入职</p>
                     <p>获得奖金</p>
@@ -74,6 +78,7 @@
 .b {
     position: relative;
     text-align: center;
+    color: #4a4a4a;
 }
 
 .b-t>span {
@@ -88,7 +93,6 @@
 
 .b-m>div {
     display: inline;
-    /* position: absolute; */
 }
 
 .line {
@@ -118,6 +122,21 @@
     position: absolute;
     right: 0;
     top: 20px;
+}
+
+.ar1,.ar2 {
+    position: absolute;
+    top: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.ar1 {
+    left: 86px;
+}
+
+.ar2 {
+    right: 86px;
 }
 
 .b-b {
