@@ -1,5 +1,5 @@
 <template>
-    <div id="container">
+    <div class="container">
         <div class="user">
             <span class="avatar"></span>
             <span class="name">阿杜</span>

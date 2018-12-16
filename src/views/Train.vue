@@ -23,10 +23,10 @@
         </a>    
       </div>
       <Recommend/>
-      <ljsq/>
-      <ljsq/>
-      <ljsq/>
-      <ljsq/>
+      <lftrain/>
+      <ftrain/>
+      <ftrain/>
+      <ftrain/>
       <a href="" class="expand">
         <span>查看更多</span>
         <span class="icon"></span>
@@ -42,7 +42,7 @@ import Navtop from '@/components/Navtop.vue'
 import Search from '@/components/Search.vue'
 import Banner from '@/components/Banner.vue'
 import Recommend from '@/components/Recommend.vue'
-import ljsq from '@/components/ljsq.vue'
+import ftrain from '@/components/ftrain.vue'
 
 export default {
   name: 'home',
@@ -51,7 +51,7 @@ export default {
     Search,
     Banner,
     Recommend,
-    ljsq
+    ftrain
   }
 }
 </script>

@@ -45,12 +45,12 @@ export default {
         active: require('../assets/icon/navbot/home-act.png')
       },
       hire: {
-        normal: require('../assets/icon/navbot/hire-nor.png'),
-        active: require('../assets/icon/navbot/hire-act.png')
+        normal: require('../assets/icon/navbot/job-nor.png'),
+        active: require('../assets/icon/navbot/job-act.png')
       },
       processing: {
-        normal: require('../assets/icon/navbot/processing-nor.png'),
-        active: require('../assets/icon/navbot/processing-act.png')
+        normal: require('../assets/icon/navbot/train-nor.png'),
+        active: require('../assets/icon/navbot/train-act.png')
       },
       me: {
         normal: require('../assets/icon/navbot/me-nor.png'),

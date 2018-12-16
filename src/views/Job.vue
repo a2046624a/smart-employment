@@ -23,10 +23,10 @@
             <img src="../assets/triangle.png" alt="">
         </a>    
       </div>
-      <ljsq/>
-      <ljsq/>
-      <ljsq/>
-      <ljsq/>
+      <fjob/>
+      <fjob/>
+      <fjob/>
+      <fjob/>
       <a href="" class="expand">
         <span>查看更多</span>
         <span class="icon"></span>
@@ -42,7 +42,7 @@ import Navtop from '@/components/Navtop.vue'
 import Search from '@/components/Search.vue'
 import Banner from '@/components/Banner.vue'
 import Recommend from '@/components/Recommend.vue'
-import ljsq from '@/components/ljsq.vue'
+import fjob from '@/components/fjob.vue'
 
 export default {
   name: 'home',
@@ -51,7 +51,7 @@ export default {
     Search,
     Banner,
     Recommend,
-    ljsq
+    fjob
   }
 }
 </script>
