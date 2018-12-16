@@ -1,13 +1,24 @@
 <template>
-    <div id="banner"></div>
+    <van-swipe :autoplay="3000" height="150">
+        <van-swipe-item v-for="(image, index) in images" :key="index">
+            <img v-lazy="image" />
+        </van-swipe-item>
+    </van-swipe>
 </template>
 
-<style scoped>
-#banner {
-    width: 100%;
-    height: 150px;
-    background: url(../assets/banner.png) no-repeat center;
-    background-size: 100% 150px;
+<script>
+export default {
+  data() {
+    return {
+      images: [
+        123,
+        456,
+        789,
+        require('../assets/icon/navbot/home-nor.png'),
+        require('../assets/icon/navbot/home-act.png')
+      ]
+    }
+  }
 }
-</style>
+</script>
 

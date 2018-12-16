@@ -14,10 +14,11 @@
 <style scoped>
 
 #search {
-    margin-top: 40px;
     height: 50px;
     background: #ffffff;
     text-align: center;
+    margin-bottom: 0;
+    border: 0;
 }
 
 #search .locale {

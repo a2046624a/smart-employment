@@ -1,20 +1,10 @@
 <template>
   <div id="app">
-  <Msetting/>
+    <Navtop/>
+    <router-view/>
+    <Navbot/>
   </div>
 </template>
-
-<script>
-import Msetting from './components/Msetting.vue'
-
-
-export default {
-  name: 'app',
-  components: {
-    Msetting
-  }
-}
-</script>
 
 <style>
 #app {
@@ -24,10 +14,12 @@ export default {
 }
 body {
   background-color: #f7f7f7;
+  color: #000;
 }
 
 .container {
-  margin-top: 40px;
+  margin-top: 46px;
+  margin-bottom: 60px;
 }
 
 .container>div {
@@ -36,7 +28,6 @@ body {
   margin-bottom: 10px;
   background: #fff;
   position: relative;
-  padding: 12px;
 }
 
 * {
@@ -45,3 +36,17 @@ body {
   text-decoration: none;
 }
 </style>
+
+<script>
+// @ is an alias to /src
+import Navtop from '@/components/Navtop.vue'
+import Navbot from '@/components/Navbot.vue'
+
+export default {
+  name: 'home',
+  components: {
+    Navtop,
+    Navbot
+  }
+}
+</script>
